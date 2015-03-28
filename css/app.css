@@ -1,0 +1,22 @@
+#tabList {
+    list-style: outside none none;
+    padding: 0;
+    margin: 30px 0;
+}
+#tabList li {
+    display: inline-block;
+    margin: 0 10px;
+}
+#tabList a {
+    padding: 10px;
+    background: #165A6E;
+    color: #FFF;
+    text-decoration: none;
+}
+#tabList .active {
+    background: #2E821B;
+}
+
+#TabContent {
+    margin-left: 10px;
+}
